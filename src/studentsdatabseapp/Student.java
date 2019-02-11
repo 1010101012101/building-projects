@@ -2,19 +2,19 @@ package studentsdatabseapp;
 
 public class Student {
 
-    private String name;
+    private String firstName;
 
-    private short year;
+    private String lastName;
 
-    private int id;
+    private short gradeYear;
 
-    private byte gradeLevel;
+    private int studentID;
 
-    private int balance;
+    private String courses;
 
-    private byte[] courses;
+    private int tuitionBalance;
 
-    private final static short COURSE_FEE = 600;
+    private final static short COST_OF_COURSE = 600;
 
     // Constructor: Add new students (prompt for name and year)
 
